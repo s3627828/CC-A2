@@ -14,7 +14,7 @@ section.congratulations {
     position: absolute;
     top: 20%;
     left: 0;
-    right: 50%;
+    right: 70%;
     bottom: 0;
     background-color: #79b;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#99bbdd', EndColorStr='#7799bb');
@@ -27,7 +27,16 @@ section.instructions {
     background-color: rgb(204,217,229);
     position: absolute;
     top: 20%;
-    left: 50%;
+    left: 30%;
     right: 0;
     bottom: 0;
+}
+
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.header img {
+  float: left;
 }
